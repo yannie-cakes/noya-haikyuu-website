@@ -1,9 +1,15 @@
+body{
+    margin: 0;
+}
+
+/*hero section*/
 
 .hero-container{
     display: flex;
     flex-direction: column;
     height: 70vh;
-    background-color: #f5a568;
+    /*background-color: #f5a568;*/
+    background-image: linear-gradient(to bottom right, #f5a568, #303030);
     margin: 0;
 }
 
@@ -41,6 +47,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    margin-bottom: 20%;
 }
 
 .hero-text h1{
@@ -76,6 +83,7 @@ a{
     margin: 50px;
     width: 500px;
     margin-left: auto;
+    padding-top: 0;
 }
 
 .hero-picture img{
@@ -90,5 +98,8 @@ a{
     width: 500px;
     height: 300px;
     margin-right: auto;
+    padding-top: 0;
 }
+
+/*info section*/
 
