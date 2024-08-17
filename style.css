@@ -3,14 +3,35 @@ body{
     overflow-x: hidden;
 }
 
+.bg-1 .bg-2, .bg-3{
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+}
+
+.bg-1{
+    height: 75vh;
+    background-image: linear-gradient(to bottom right, 	#8e3a3a,	#e8dcd2);
+}
+
+.bg-2{
+    height: 60vh;
+    background-position: -15% 35%;
+    background-image: url(./images/background-8.png);
+}
+
+.bg-3{
+    height: 60vh;
+    background-position: 100% 20%;
+    background-image: url(./images/background-9.png);
+}
+
 /*hero section*/
 
 .hero-container{
     display: flex;
     flex-direction: column;
     height: 75vh;
-    /*background-color: #f5a568;*/
-    background-image: linear-gradient(to bottom right, #f5a568, #303030);
     flex-shrink: 0;
     overflow: hidden;
 }
@@ -108,8 +129,9 @@ a{
 .information-container{
     display: flex;
     height: 60vh;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    margin-left: 105px;
 }
 
 .meet{
@@ -154,8 +176,6 @@ a{
     display: flex;
     flex-direction: column;
     height: 60vh;
-    /*background-color: #f5a568;*/
-    background-color: lightgray;
     flex-shrink: 0;
     overflow: hidden;
 }
