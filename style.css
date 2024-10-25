@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 
-.bg-1 .bg-2, .bg-3{
+.bg-1 .bg-2, .bg-3, .bg-4{
     background-repeat: no-repeat;
     max-width: 100vw;
     background-size: cover;
@@ -24,6 +24,11 @@ body{
     height: 60vh;
     background-position: 100% 20%;
     background-image: url(./images/background-9.png);
+}
+
+.bg-4{
+    height: 40vh;
+    background-image: linear-gradient(to bottom right, 	#8e3a3a,	#e8dcd2);
 }
 
 /*hero section*/
@@ -202,5 +207,66 @@ blockquote{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     color: white;
+}
+
+/*newsletter section*/
+.newsletter-container,.want-to-know{
+    margin: 0;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: #303030;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sign-up-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight:lighter;
+    font-size: 15px;
+}
+
+.newsletter-button{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.sign-up{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.newsletter-container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Laila', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #303030;
+    padding: 10px;
+}
+
+footer > p{
+    margin: 0;
 }
 
