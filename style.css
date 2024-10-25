@@ -5,7 +5,7 @@ body{
 
 .bg-1 .bg-2, .bg-3{
     background-repeat: no-repeat;
-    width: 100vw;
+    max-width: 100vw;
     background-size: cover;
 }
 
@@ -160,6 +160,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 200px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .noya-content-container p{
@@ -179,3 +180,27 @@ a{
     flex-shrink: 0;
     overflow: hidden;
 }
+
+blockquote{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+}
+
+.quote{
+    font-size: 50px;
+    font-family: 'Laila', sans-serif;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.quote-credit{
+    margin-left: 350px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
